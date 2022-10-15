@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T19:34:17.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yadksTd5A7k-eezQnwGA" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-15T19:36:55.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0OiKLBurKDBe95307CKR" version="20.4.1" type="github">
   <diagram id="ogXXKhC3Jr8JgC0j9LE9" name="Page-1">
     <mxGraphModel dx="1108" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,14 +91,17 @@
         <mxCell id="KN4Szy_uZ8C4-bPnuXyF-38" value="idSupport" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KN4Szy_uZ8C4-bPnuXyF-37" vertex="1">
           <mxGeometry x="60" y="30" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KN4Szy_uZ8C4-bPnuXyF-39" value="nomFichier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KN4Szy_uZ8C4-bPnuXyF-37" vertex="1">
-          <mxGeometry x="55" y="60" width="80" height="30" as="geometry" />
+        <mxCell id="KN4Szy_uZ8C4-bPnuXyF-39" value="lienVideoSupprot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KN4Szy_uZ8C4-bPnuXyF-37" vertex="1">
+          <mxGeometry x="45" y="50" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KN4Szy_uZ8C4-bPnuXyF-40" value="idFormation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KN4Szy_uZ8C4-bPnuXyF-37" vertex="1">
-          <mxGeometry x="50" y="90" width="90" height="30" as="geometry" />
+          <mxGeometry x="50" y="100" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KN4Szy_uZ8C4-bPnuXyF-45" value="idInstructeur" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KN4Szy_uZ8C4-bPnuXyF-37" vertex="1">
-          <mxGeometry x="50" y="120" width="90" height="30" as="geometry" />
+          <mxGeometry x="50" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5soxMlAz4nSiR6yboNO-2" value="audioSupport" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KN4Szy_uZ8C4-bPnuXyF-37">
+          <mxGeometry x="50" y="70" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KN4Szy_uZ8C4-bPnuXyF-46" value="commentaire" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="600" y="600" width="200" height="140" as="geometry">
