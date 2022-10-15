@@ -11,6 +11,19 @@
 
 <body>
 
+    <div>
+        <span class="logo">
+            <img src="images/logo.png" alt="">
+        </span>
+    </div>
+
+    <div class="container">
+        <div>
+            <img src="images/img2.png" alt="">
+        </div>
+    </div>
+
+
 </body>
 
 </html>
