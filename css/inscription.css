@@ -1,0 +1,53 @@
+.container {
+    background-color: red;
+    height: 700px;
+}
+
+.container .logo {
+    display: inline-block;
+}
+
+.form {
+
+    float: right;
+    width: 700px;
+    padding: 20px;
+    line-height: 70px;
+    margin-right: 5px;
+}
+
+.form input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #F03D3D;
+    /* opacity: .5; */
+}
+
+.form .tel {
+    width: 420px;
+}
+
+.form .email {
+    width: 420px;
+    margin-left: 105px;
+}
+
+.form .mdp {
+    width: 420px;
+    margin-left: 30px;
+}
+
+.form .confMdp {
+    width: 420px;
+    margin-left: 50px;
+}
+
+.form button {
+    margin-left: 25%;
+    padding: 15px;
+    color: red;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid white;
+}

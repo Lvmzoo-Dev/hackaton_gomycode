@@ -11,32 +11,34 @@
 
 <body>
 
-
     <div class="container">
         <div class="logo">
             <span>
                 <img src="images/logo2.png" alt="">
             </span>
+            <br>
+            <span>
+                <img src="images/man.jpg" width="500" height="500" alt="">
+            </span>
         </div>
-        <div>
+        <div class="form">
             <form action="">
-                <h1>Inscription</h1>
+                <h1 align="center">Inscription</h1>
                 <label for="">NOM</label>
-                <input type="text" id="nom">
-                <label for="">PRENOM</label>
-                <input type="text" id="nom">
+                &nbsp;&nbsp;&nbsp; <input type="text" id="nom" placeholder="Nom...">
+                &nbsp;&nbsp;&nbsp;<label for="">PRENOM</label>
+                &nbsp;&nbsp;&nbsp; <input type="text" id="nom" placeholder="Prénom..."> <br>
                 <label for="">Numéro de Téléphone</label>
-                <input type="number" id="nom">
+                <input type="number" id="nom" class="tel" placeholder="Numéro de téléphone..."> <br>
                 <label for="">Email</label>
-                <input type="mail" id="nom">
+                <input type="mail" id="nom" class="email" placeholder="Email..."> <br>
                 <label for="">MOT DE PASSE</label>
-                <input type="password" id="nom">
+                <input type="password" id="nom" class="mdp" placeholder="Mot de passe..."> <br>
                 <label for="">CONFIRMER</label>
-                <input type="password" id="nom">
+                <input type="password" id="nom" class="confMdp" placeholder="Confirmer..."> <br>
                 <label for="">CHOIX FORMATION</label>
-                <input type="text" id="nom">
+                <input type="text" id="nom" class="choix"> <br>
                 <button type="submit" id="valider">VALIDER</button>
-                <button type="reset" id="anuler">ANNULER</button>
             </form>
         </div>
         <div></div>
