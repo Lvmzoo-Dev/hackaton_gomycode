@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : sam. 15 oct. 2022 à 19:15
--- Version du serveur : 10.4.24-MariaDB
--- Version de PHP : 8.0.6
+-- Généré le : sam. 15 oct. 2022 à 22:09
+-- Version du serveur : 10.4.25-MariaDB
+-- Version de PHP : 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -124,7 +124,8 @@ CREATE TABLE `superadmin` (
 
 CREATE TABLE `supportcours` (
   `idSupport` int(250) NOT NULL,
-  `nomFichier` varchar(250) NOT NULL,
+  `video` varchar(250) NOT NULL,
+  `audio` varchar(250) NOT NULL,
   `idFormation` int(11) NOT NULL,
   `idInstructeur` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -132,6 +133,46 @@ CREATE TABLE `supportcours` (
 --
 -- Index pour les tables déchargées
 --
+
+--
+-- Index pour la table `commentaire`
+--
+ALTER TABLE `commentaire`
+  ADD PRIMARY KEY (`idComm`),
+  ADD KEY `idEtu` (`idEtu`);
+
+--
+-- Index pour la table `etudiant`
+--
+ALTER TABLE `etudiant`
+  ADD PRIMARY KEY (`idEtu`),
+  ADD KEY `idFormation` (`idFormation`);
+
+--
+-- Index pour la table `exercices`
+--
+ALTER TABLE `exercices`
+  ADD PRIMARY KEY (`idExo`),
+  ADD KEY `idIns` (`idIns`);
+
+--
+-- Index pour la table `formation`
+--
+ALTER TABLE `formation`
+  ADD PRIMARY KEY (`idFormation`);
+
+--
+-- Index pour la table `instructeur`
+--
+ALTER TABLE `instructeur`
+  ADD PRIMARY KEY (`idIns`);
+
+--
+-- Index pour la table `reponses`
+--
+ALTER TABLE `reponses`
+  ADD PRIMARY KEY (`idReponse`),
+  ADD KEY `idExo` (`idExo`,`idEtu`);
 
 --
 -- Index pour la table `supportcours`
