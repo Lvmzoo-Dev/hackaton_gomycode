@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T15:09:33.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="cUFC8lS-w00jC9JQFR2K" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-15T15:36:28.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="gQ1Q8sPHP5aqLpHypgYU" version="20.4.1" type="github">
   <diagram id="ogXXKhC3Jr8JgC0j9LE9" name="Page-1">
-    <mxGraphModel dx="1335" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="914" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="KN4Szy_uZ8C4-bPnuXyF-17" value="superAdmin" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="470" y="100" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="KN4Szy_uZ8C4-bPnuXyF-18" value="login" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KN4Szy_uZ8C4-bPnuXyF-17">
+        <mxCell id="KN4Szy_uZ8C4-bPnuXyF-18" value="email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KN4Szy_uZ8C4-bPnuXyF-17">
           <mxGeometry x="80" y="40" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KN4Szy_uZ8C4-bPnuXyF-19" value="password" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KN4Szy_uZ8C4-bPnuXyF-17">
