@@ -11,18 +11,36 @@
 
 <body>
 
-    <div>
-        <span class="logo">
-            <img src="images/logo.png" alt="">
-        </span>
-    </div>
 
     <div class="container">
-        <div>
-            <img src="images/img2.png" alt="">
+        <div class="logo">
+            <span>
+                <img src="images/logo2.png" alt="">
+            </span>
         </div>
+        <div>
+            <form action="">
+                <h1>Inscription</h1>
+                <label for="">NOM</label>
+                <input type="text" id="nom">
+                <label for="">PRENOM</label>
+                <input type="text" id="nom">
+                <label for="">Numéro de Téléphone</label>
+                <input type="number" id="nom">
+                <label for="">Email</label>
+                <input type="mail" id="nom">
+                <label for="">MOT DE PASSE</label>
+                <input type="password" id="nom">
+                <label for="">CONFIRMER</label>
+                <input type="password" id="nom">
+                <label for="">CHOIX FORMATION</label>
+                <input type="text" id="nom">
+                <button type="submit" id="valider">VALIDER</button>
+                <button type="reset" id="anuler">ANNULER</button>
+            </form>
+        </div>
+        <div></div>
     </div>
-
 
 </body>
 
