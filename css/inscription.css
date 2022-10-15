@@ -8,7 +8,8 @@
 }
 
 .form {
-
+    font-family: 'Lucida Sans';
+    font-weight: bold;
     float: right;
     width: 700px;
     padding: 20px;
