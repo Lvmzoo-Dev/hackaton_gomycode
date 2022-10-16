@@ -3,7 +3,7 @@
 require_once 'functions/etudiantFunctions.php';
 $etudiants = listerEtu();
 
-foreach ($etudiants as $etu) :
+foreach ($etudiants as $etu):
 
     $email = $etu['emailEtu'];
     $password = $etu['passwordEtu'];

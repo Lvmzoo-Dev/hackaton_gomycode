@@ -68,6 +68,7 @@ input{
 input:focus{
     border: 2px solid #fff;
     background: transparent;
+    outline: none;
 }
 .content{
     margin-top: 70px;
