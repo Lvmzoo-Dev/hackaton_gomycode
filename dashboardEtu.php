@@ -33,7 +33,7 @@
                     <li><img src="images/home.png" class="icon" alt=""> <a href="#">Accueil</a></li>
                     <li><img src="images/cours.png" class="icon" alt=""> <a href="#">Cours</a></li>
                     <li><img src="images/prof.png" class="icon" alt=""> <a href="#">Professeur</a></li>
-                    <li><img src="images/espace-etudiant.png" class="icon" alt=""> <a href="#">Espace Etudiant</a></li>
+                    <li><img src="images/espace-etudiant.png" class="icon" alt=""> <a href="EspaceEtudiant.php">Espace Etudiant</a></li>
                     <li><img src="images/ecrire.png" class="icon" alt=""> <a href="#" onclick="openForm()">Ecrire au Prof</a></li>
                 </ul>
             </nav>
