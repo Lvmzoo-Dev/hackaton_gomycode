@@ -114,8 +114,9 @@
             background-color: #fff;
         }
 
-        .formContainer input[type=text] {
+        .formContainer textarea[type=text] {
             width: 100%;
+            height: 100px;
             padding: 15px;
             margin: 5px 0 20px 0;
             border: none;
@@ -154,7 +155,7 @@
                     <strong>Votre Message: </strong>
                 </label>
                 <br>
-                <input type="text" id="message" placeholder="Message..." name="message" required>
+                <textarea type="text" id="message" placeholder="Message..." name="message" required></textarea>
                 <button type="submit" name="send" class="btn">Envoyer</button>
                 <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
             </form>
