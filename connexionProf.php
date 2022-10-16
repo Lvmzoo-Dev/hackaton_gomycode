@@ -9,9 +9,9 @@ if (isset($_POST['valider'])) {
     $password = $_POST['password'];
     $sql = "SELECT * FROM instructeur WHERE emailIns='$mail' AND passwordIns='$password'";
     $resultat = mysqli_query($db, $sql);
-    $etudiant = mysqli_fetch_row($resultat);
+    $prof = mysqli_fetch_row($resultat);
 
-    if($etudiant == null){
+    if($prof == null){
         ?>
 
             <script>
@@ -21,7 +21,7 @@ if (isset($_POST['valider'])) {
         <?php
     }else{
         session_start();
-        $_SESSION['mail'] = $_POST['mail'];
+        $_SESSION['mail'] = $_POST['email'];
         $_SESSION['password'] = $_POST['password'];
         header("location:dashboardProf.php");
     }
