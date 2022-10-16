@@ -58,7 +58,7 @@ if (isset($_POST['valider'])) {
 
                     <h2>CONNEXION</h2>
                     <div class="content">
-
+                        
                         <div>
                             <label for="">Email *</label><br>
                             <input type="email" name="email" placeholder="Entrer votre email" autocomplete="off">

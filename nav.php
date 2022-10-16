@@ -18,7 +18,10 @@
             <li><a href="#">En ligne</a></li>
             <li></li>
         </ul>
-        <a href="#" class="btn">Connexion</a>
+        <div class="links">
+            <a href="#" class="btn">Professeur</a>
+            <a href="index.php" class="btn">Etudiant</a>
+        </div>
     </nav>
 
 </body>
