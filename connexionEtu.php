@@ -53,7 +53,7 @@ if (isset($_POST['valider'])) {
         <form action="" method="POST">
             <div class="form">
                 <p>
-                    Connectez-vous à votre compte <span>GoMyCode</span> Learn pour
+                    Connectez-vous à votre compte <span>GoMyCode Learn+</span> pour
                     continuer votre expérience d'apprentissage.
                 </p>
                 <nav>

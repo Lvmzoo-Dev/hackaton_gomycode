@@ -47,6 +47,17 @@ nav ul li a:hover{
     background-image: url(images/man.jpg);
     background-position: center;
     background-size: cover;
+    animation: img 1s ease-in forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@keyframes img{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .container{
     display: flex;

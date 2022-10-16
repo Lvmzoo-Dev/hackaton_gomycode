@@ -2,7 +2,7 @@
 
 $host = 'localhost';
 $user = 'root';
-$password = 'root';
+$password = '';
 $bd = 'gomycode';
 try {
     $db = mysqli_connect($host, $user, $password, $bd);

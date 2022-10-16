@@ -27,6 +27,7 @@
                     <li><img src="images/cours.png" class="icon" alt="">  <a href="#">Cours</a></li>
                     <li><img src="images/espace-etudiant.png" class="icon" alt="">  <a href="#">Espace Etudiant</a></li>
                     <li><img src="images/ecrire.png" class="icon" alt="">  <a href="#" onclick="openForm()">Ecrire au Prof</a></li>
+                    <li><img src="images/deconnexion.png" class="icon" alt=""> <a href="index.php">Déconnexion</a></li>
                 </ul>
             </nav>
 
