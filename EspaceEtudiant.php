@@ -43,7 +43,7 @@
                 <div id="messagesList" class="flex-grow-1">
                 </div>
                 <form id="messageForm" class="flex">
-                    <input type="text" name="message" id="messageInput" class="flex-grow-1">
+                    <input type="text" autocomplete="off" name="message" id="messageInput" class="flex-grow-1">
                     <button id="sendBtn">Send</button>
                 </form>
             </section>
