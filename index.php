@@ -1,82 +1,38 @@
-<?php
-
-require_once 'functions/etudiantFunctions.php';
-$etudiants = listerEtu();
-
-foreach ($etudiants as $etu):
-
-    $email = $etu['emailEtu'];
-    $password = $etu['passwordEtu'];
-
-endforeach;
-
-if (isset($_POST['valider'])) {
-    if ($email != $_POST['email'] || $password != $_POST['password']) {
-?>
-        <script>
-            alert("VOUS N'ETES PAS SUR LA BASE DE DONNEES");
-        </script>
-    <?php
-    } else {
-    ?>
-        <script>
-            alert("VOUS ETES BIEN SUR LA BASE DE DONNEES");
-        </script>
-<?php
-    }
-}
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOMYCODE - Connexion</title>
-    <link rel="stylesheet" href="css/index.css">
+    <title>GOMYCODE - Navigation</title>
+    <link rel="stylesheet" href="css/nav.css">
 </head>
-
 <body>
-
-
-    <div class="circle circle1"></div>
-    <div class="circle circle2"></div>
-    <div class="circle circle3"></div>
+    
+    <nav>
+        <a href="#"><img src="images/logo2.png" alt=""></a>
+        <ul>
+            <li><a href="#">Nos Formations</a></li>
+            <li><a href="#">Choisir vos horaires</a></li>
+            <li><a href="#">Hackerspaces</a></li>
+            <li><a href="#">En ligne</a></li>
+            <li></li>
+        </ul>
+        <div class="links">
+            <a href="connexionProf.php" class="btn">Professeur</a>
+            <a href="connexionEtu.php" class="btn">Etudiant</a>
+        </div>
+    </nav>
 
     <div class="container">
-        <img src="images/img2.png" alt="">
-        <form action="" method="POST">
-            <div class="form">
-                <p>
-                    Connectez-vous à votre compte <span>GoMyCode</span> Learn pour
-                    continuer votre expérience d'apprentissage.
-                </p>
-                <nav>
+        <div class="gauche"></div>
 
-                    <h2>CONNEXION</h2>
-                    <div class="content">
-                        
-                        <div>
-                            <label for="">Email *</label><br>
-                            <input type="email" name="email" placeholder="Entrer votre email" autocomplete="off">
-                        </div>
-                        <div>
-                            <label for="">Password *</label><br>
-                            <input type="password" name="password" placeholder="Entrer votre mot de passe" autocomplete="off">
-                        </div>
-
-                        <button type="submit" name="valider" id="valider" class="btn">CONNEXION</button><br>
-                        <a href="inscription.php" class="forgotpwd">Vous n'avez pas de compte ?</a>
-                    </div>
-
-                </nav>
-            </div>
-        </form>
+        <div class="droite">
+            <h1>Learn Web Coding <br>by Building</h1>
+            <p>Nous formons la prochaine génération tech aux technologies<br> les plus récentes et aux métiers du futur pour les préparer au<br>monde professionnel et renforcer leur employabilité.</p>
+        </div>
     </div>
 
 </body>
-
 </html>

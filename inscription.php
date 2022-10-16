@@ -17,7 +17,7 @@ if (isset($_POST['valider'])) {
         $password = $_POST['password'];
         $choixFormation = $_POST['formation'];
         addEtu($name, $firstName, $email, $password, $choixFormation);
-        header('location:index.php');
+        header('location:connexionEtu.php');
     }
 }
 

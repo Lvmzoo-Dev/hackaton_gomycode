@@ -7,7 +7,7 @@ if (isset($_POST['valider'])) {
 
     $mail = $_POST['email'];
     $password = $_POST['password'];
-    $sql = "SELECT * FROM instructeur WHERE emailIns='$mail' AND passwordIns='$password'";
+    $sql = "SELECT * FROM etudiant WHERE emailEtu='$mail' AND passwordEtu='$password'";
     $resultat = mysqli_query($db, $sql);
     $etudiant = mysqli_fetch_row($resultat);
 
@@ -23,7 +23,7 @@ if (isset($_POST['valider'])) {
         session_start();
         $_SESSION['mail'] = $_POST['mail'];
         $_SESSION['password'] = $_POST['password'];
-        header("location:dashboardProf.php");
+        header("location:dashboardEtu.php");
     }
 
 }
@@ -38,7 +38,7 @@ if (isset($_POST['valider'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOMYCODE - Connexion</title>
-    <link rel="stylesheet" href="css/connexionProf.css">
+    <link rel="stylesheet" href="css/connexionEtu.css">
 </head>
 
 <body>
@@ -49,7 +49,7 @@ if (isset($_POST['valider'])) {
     <div class="circle circle3"></div>
 
     <div class="container">
-        <img src="images/man2.png" alt="">
+        <img src="images/img2.png" alt="">
         <form action="" method="POST">
             <div class="form">
                 <p>
@@ -60,7 +60,7 @@ if (isset($_POST['valider'])) {
 
                     <h2>CONNEXION</h2>
                     <div class="content">
-
+                        
                         <div>
                             <label for="">Email *</label><br>
                             <input type="email" name="email" placeholder="Entrer votre email" autocomplete="off">
@@ -71,7 +71,7 @@ if (isset($_POST['valider'])) {
                         </div>
 
                         <button type="submit" name="valider" id="valider" class="btn">CONNEXION</button><br>
-                        
+                        <a href="inscription.php" class="forgotpwd">Vous n'avez pas de compte ?</a>
                     </div>
 
                 </nav>
