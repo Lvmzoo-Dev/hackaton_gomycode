@@ -21,7 +21,7 @@ if (isset($_POST['valider'])) {
         <?php
     }else{
         session_start();
-        $_SESSION['mail'] = $_POST['mail'];
+        $_SESSION['mail'] = $_POST['email'];
         $_SESSION['password'] = $_POST['password'];
         header("location:dashboardEtu.php");
     }
