@@ -1,3 +1,11 @@
+<?php
+
+@include_once 'connexion.php';
+pdo_connect_mysql();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +17,6 @@
 </head>
 <body>
     
-    <div class="btn-retour"></div>
     
     <div class="circle circle1"></div>
     <div class="circle circle2"></div>
@@ -36,7 +43,7 @@
                         <input type="password" name="email" placeholder="Entrer votre mot de passe" autocomplete="off">
                     </div>
 
-                    <a href="#" class="btn">CONNEXION</a><br>
+                    <a class="btn">CONNEXION</a><br>
                     <a href="#" class="forgotpwd">Mot de passe oublié ?</a>
                 </div>
 
