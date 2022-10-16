@@ -1,6 +1,6 @@
 .container {
     background-color: red;
-    height: 700px;
+    height: 900px;
 }
 
 .container .logo {
@@ -8,8 +8,9 @@
 }
 
 .form {
+    margin-top: 90px;
+    color: white;
     font-family: 'Lucida Sans';
-    font-weight: bold;
     float: right;
     width: 700px;
     padding: 20px;
@@ -22,31 +23,38 @@
     height: 40px;
     border-radius: 10px;
     background-color: #F03D3D;
+    color: white;
     /* opacity: .5; */
 }
 
 .form .tel {
     width: 420px;
+    height: 50px;
 }
 
 .form .email {
     width: 420px;
+    height: 50px;
     margin-left: 105px;
 }
 
 .form .mdp {
     width: 420px;
+    height: 50px;
     margin-left: 30px;
 }
 
 .form .confMdp {
     width: 420px;
+    height: 50px;
     margin-left: 50px;
 }
 
 .form button {
     margin-left: 25%;
     padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     color: red;
     font-weight: bold;
     border-radius: 7px;

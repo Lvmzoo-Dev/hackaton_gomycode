@@ -18,7 +18,7 @@
             </span>
             <br>
             <span>
-                <img src="images/man.jpg" width="500" height="500" alt="">
+                <img src="images/man.jpg" width="550" height="700" alt="">
             </span>
         </div>
         <div class="form">
