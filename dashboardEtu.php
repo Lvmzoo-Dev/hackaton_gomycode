@@ -67,6 +67,18 @@
                 </p>
                 <a href="#" class="details">Details</a>
             </div>
+            <br>
+            <div class="chapitre">
+                <div class="headChapitre">
+                    <p class="title">CHAPITRE 5</p>
+                    <span class="statutChapitre">EN COURS</span>
+                </div>
+                <p class="detailChapitre">
+                    Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Maxime, iusto pariatur
+                </p>
+                <a href="#" class="details">Details</a>
+            </div>
         </div>
         <div class="div-right"></div>
     </div>
