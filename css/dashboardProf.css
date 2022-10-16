@@ -1364,3 +1364,39 @@ section {
         height: 25rem;
     }
 }
+
+.voir{
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #BC0000;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.box .title1{
+    background-color: green;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.box .title2{
+    background-color: #0894df;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+
+}
+.box .title3{
+    background-color: gray;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+
+}
