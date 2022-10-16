@@ -1,5 +1,6 @@
 <?php
 require_once 'functions/formationFunctions.php';
+require_once 'functions/etudiantFunctions.php';
 $formations = getFormations();
 
 if (isset($_POST['valider'])) {
@@ -12,14 +13,11 @@ if (isset($_POST['valider'])) {
         $name = $_POST['nom'];
         $firstName = $_POST['prenom'];
         $email = $_POST['email'];
-        $tel = $_POST['numTel'];
+
         $password = $_POST['password'];
         $choixFormation = $_POST['formation'];
-        echo "Nom: " . $name .
-            "\nPrénom: " . $firstName .
-            "Email: " . $email .
-            "tel: " . $tel .
-            "Formation: " . $choixFormation;;
+        addEtu($name, $firstName, $email, $password, $choixFormation);
+        header('location:index.php');
     }
 }
 
@@ -54,8 +52,6 @@ if (isset($_POST['valider'])) {
                 &nbsp;&nbsp;&nbsp; <input type="text" name="nom" id="nom" placeholder="Nom...">
                 &nbsp;&nbsp;&nbsp;<label for="">PRENOM</label>
                 &nbsp;&nbsp;&nbsp; <input type="text" name="prenom" id="nom" placeholder="Prénom..."> <br>
-                <label for="">Numéro de Téléphone</label>
-                <input type="number" id="nom" name="numTel" class="tel" placeholder="Numéro de téléphone..."> <br>
                 <label for="">Email</label>
                 <input type="mail" id="nom" class="email" name="email" placeholder="Email..."> <br>
                 <label for="">MOT DE PASSE</label>

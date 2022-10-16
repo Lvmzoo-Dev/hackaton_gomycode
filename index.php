@@ -1,13 +1,14 @@
 <?php
 
-@include_once 'connexion.php';
-pdo_connect_mysql();
+// @include_once 'connexion.php';
+// pdo_connect_mysql();
 
 ?>
 
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,9 +16,10 @@ pdo_connect_mysql();
     <title>GOMYCODE - Connexion</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    
-    
+
+
     <div class="circle circle1"></div>
     <div class="circle circle2"></div>
     <div class="circle circle3"></div>
@@ -26,11 +28,11 @@ pdo_connect_mysql();
         <img src="images/img2.png" alt="">
         <div class="form">
             <p>
-                Connectez-vous à votre compte <span>GoMyCode</span> Learn pour 
+                Connectez-vous à votre compte <span>GoMyCode</span> Learn pour
                 continuer votre expérience d'apprentissage.
             </p>
             <nav>
-                
+
                 <h2>CONNEXION</h2>
                 <div class="content">
 
@@ -52,4 +54,5 @@ pdo_connect_mysql();
     </div>
 
 </body>
+
 </html>

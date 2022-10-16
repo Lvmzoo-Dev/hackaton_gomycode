@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : sam. 15 oct. 2022 à 22:09
+-- Généré le : dim. 16 oct. 2022 à 04:53
 -- Version du serveur : 10.4.25-MariaDB
 -- Version de PHP : 8.1.10
 
@@ -45,11 +45,16 @@ CREATE TABLE `etudiant` (
   `prenomEtu` varchar(70) NOT NULL,
   `emailEtu` varchar(100) NOT NULL,
   `passwordEtu` varchar(30) NOT NULL,
-  `dateNaissEtu` date NOT NULL,
-  `photoEtu` blob NOT NULL,
-  `noteEtu` int(11) NOT NULL,
   `idFormation` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `etudiant`
+--
+
+INSERT INTO `etudiant` (`idEtu`, `nomEtu`, `prenomEtu`, `emailEtu`, `passwordEtu`, `idFormation`) VALUES
+(1, 'TEST', 'TETSE', 'sall@gmail.com', 'passer', 3),
+(2, 'NDIAYE', 'LAMINE', 'alaminend23@gmail.com', 'passer', 3);
 
 -- --------------------------------------------------------
 
@@ -74,6 +79,20 @@ CREATE TABLE `formation` (
   `idFormation` int(11) NOT NULL,
   `nomFormation` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `formation`
+--
+
+INSERT INTO `formation` (`idFormation`, `nomFormation`) VALUES
+(1, 'Digital Marketing'),
+(2, 'DevOps'),
+(3, 'CyberSecurity'),
+(4, '2D Game Development'),
+(5, 'Deep Learning'),
+(6, 'UX Design'),
+(7, 'Back-End with NodeJS'),
+(8, 'Front-End with ReactJS');
 
 -- --------------------------------------------------------
 
@@ -185,6 +204,18 @@ ALTER TABLE `supportcours`
 --
 -- AUTO_INCREMENT pour les tables déchargées
 --
+
+--
+-- AUTO_INCREMENT pour la table `etudiant`
+--
+ALTER TABLE `etudiant`
+  MODIFY `idEtu` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT pour la table `formation`
+--
+ALTER TABLE `formation`
+  MODIFY `idFormation` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT pour la table `supportcours`
