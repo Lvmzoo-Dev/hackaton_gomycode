@@ -28,9 +28,9 @@
                 <ul>
                     <li><img src="images/home.png" class="icon" alt="">  <a href="dashboardEtu.php">Accueil</a></li>
                     <li><img src="images/cours.png" class="icon" alt="">  <a href="#">Cours</a></li>
-                    <li><img src="images/prof.png" class="icon" alt="">  <a href="#">Professeur</a></li>
                     <li><img src="images/espace-etudiant.png" class="icon" alt="">  <a href="#">Espace Etudiant</a></li>
                     <li><img src="images/ecrire.png" class="icon" alt="">  <a href="#" onclick="openForm()">Ecrire au Prof</a></li>
+                    <li><img src="images/deconnexion.png" class="icon" alt="">  <a href="index.php">Ecrire au Prof</a></li>
                 </ul>
             </nav>
 
@@ -43,7 +43,7 @@
                 <div id="messagesList" class="flex-grow-1">
                 </div>
                 <form id="messageForm" class="flex">
-                    <input type="text" autocomplete="off" name="message" id="messageInput" class="flex-grow-1">
+                    <input type="text" autocomplete="off" placeholder="Entrer votre message ..." class="messageText" name="message" id="messageInput" class="flex-grow-1">
                     <button id="sendBtn">Send</button>
                 </form>
             </section>

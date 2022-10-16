@@ -110,10 +110,10 @@ body {
 }
 
 .messageText {
-    width: 90%;
+    width: 80%;
     height: 40px;
     font-size: 14px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     background: transparent;
     padding: 10px;
     color: black;
@@ -135,6 +135,9 @@ body {
     border: none;
     outline: none;
 }
+#chat{
+    margin-top: 10px;
+}
 
 .audio img {
     width: 30px;
@@ -147,4 +150,12 @@ body {
     width: 15%;
     height: 90vh;
     background-color: white;
+}
+#sendBtn{
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    background-color: #BC0000;
+    color: #fff;
+    font-weight: bold;
 }
