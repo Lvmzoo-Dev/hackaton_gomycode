@@ -1,3 +1,29 @@
+<?php
+require_once 'functions/formationFunctions.php';
+$formations = getFormations();
+
+if (isset($_POST['valider'])) {
+    if ($_POST['password'] != $_POST['confMdp']) {
+?>
+        <script>
+            alert("Erreur !!\n Les mots de passe sont différents");
+        </script>
+<?php } else {
+        $name = $_POST['nom'];
+        $firstName = $_POST['prenom'];
+        $email = $_POST['email'];
+        $tel = $_POST['numTel'];
+        $password = $_POST['password'];
+        $choixFormation = $_POST['formation'];
+        echo "Nom: " . $name .
+            "\nPrénom: " . $firstName .
+            "Email: " . $email .
+            "tel: " . $tel .
+            "Formation: " . $choixFormation;;
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,23 +48,31 @@
             </span>
         </div>
         <div class="form">
-            <form action="">
+            <form action="" method="POST">
                 <h1 align="center">Inscription</h1>
                 <label for="">NOM</label>
-                &nbsp;&nbsp;&nbsp; <input type="text" id="nom" placeholder="Nom...">
+                &nbsp;&nbsp;&nbsp; <input type="text" name="nom" id="nom" placeholder="Nom...">
                 &nbsp;&nbsp;&nbsp;<label for="">PRENOM</label>
-                &nbsp;&nbsp;&nbsp; <input type="text" id="nom" placeholder="Prénom..."> <br>
+                &nbsp;&nbsp;&nbsp; <input type="text" name="prenom" id="nom" placeholder="Prénom..."> <br>
                 <label for="">Numéro de Téléphone</label>
-                <input type="number" id="nom" class="tel" placeholder="Numéro de téléphone..."> <br>
+                <input type="number" id="nom" name="numTel" class="tel" placeholder="Numéro de téléphone..."> <br>
                 <label for="">Email</label>
-                <input type="mail" id="nom" class="email" placeholder="Email..."> <br>
+                <input type="mail" id="nom" class="email" name="email" placeholder="Email..."> <br>
                 <label for="">MOT DE PASSE</label>
-                <input type="password" id="nom" class="mdp" placeholder="Mot de passe..."> <br>
+                <input type="password" id="nom" class="mdp" name="password" placeholder="Mot de passe..."> <br>
                 <label for="">CONFIRMER</label>
-                <input type="password" id="nom" class="confMdp" placeholder="Confirmer..."> <br>
+                <input type="password" id="nom" class="confMdp" name="confMdp" placeholder="Confirmer..."> <br>
                 <label for="">CHOIX FORMATION</label>
-                <input type="text" id="nom" class="choix"> <br>
-                <button type="submit" id="valider">VALIDER</button>
+                <select class="formation" name="formation" id="">
+                    <option value="">Choisir Formation</option>
+                    <?php
+                    while ($tab = mysqli_fetch_row($formations)) { ?>
+                        <option value="<?= $tab[0] ?>">
+                            <?= $tab[1] ?>
+                        </option>
+                    <?php   } ?>
+                </select>
+                <button type="submit" name="valider" id="valider">VALIDER</button>
             </form>
         </div>
         <div></div>
