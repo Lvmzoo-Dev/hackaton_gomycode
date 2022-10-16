@@ -1,7 +1,7 @@
 <?php
 
-require_once 'functions/etudiantFunctions.php';
-$etudiants = listerEtu();
+require_once 'functions/profFunctions.php';
+$profs = listerProf();
 
 foreach ($etudiants as $etu) :
 
