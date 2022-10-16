@@ -67,6 +67,18 @@
                 </p>
                 <a href="#" class="details">Details</a>
             </div>
+            <br>
+            <div class="chapitre">
+                <div class="headChapitre">
+                    <p class="title">CHAPITRE 5</p>
+                    <span class="statutChapitre">EN COURS</span>
+                </div>
+                <p class="detailChapitre">
+                    Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Maxime, iusto pariatur
+                </p>
+                <a href="#" class="details">Details</a>
+            </div>
         </div>
         <div class="div-right"></div>
     </div>
@@ -114,8 +126,9 @@
             background-color: #fff;
         }
 
-        .formContainer input[type=text] {
+        .formContainer textarea[type=text] {
             width: 100%;
+            height: 100px;
             padding: 15px;
             margin: 5px 0 20px 0;
             border: none;
@@ -154,7 +167,7 @@
                     <strong>Votre Message: </strong>
                 </label>
                 <br>
-                <input type="text" id="message" placeholder="Message..." name="message" required>
+                <textarea type="text" id="message" placeholder="Message..." name="message" required></textarea>
                 <button type="submit" name="send" class="btn">Envoyer</button>
                 <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
             </form>
