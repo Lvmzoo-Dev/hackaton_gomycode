@@ -38,16 +38,12 @@
             <div class="messageBox">
                 <div class="elements">
                     <input type="text" name="messageText" placeholder="Entrer votre message ..." class="messageText" id="">
-                    <button>
                     <div class="audio">
                         <img src="images/send.png" alt="">
                     </div>
-                    </button>
-                    <button>
                     <div class="audio">
                         <img src="images/microphone.png" alt="">
                     </div>
-                    </button>
                 </div>
             </div>
         </div>
