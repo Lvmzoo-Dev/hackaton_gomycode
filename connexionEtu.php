@@ -58,7 +58,7 @@ if (isset($_POST['valider'])) {
                 </p>
                 <nav>
 
-                    <h2>CONNEXION</h2>
+                    <h2>CONNEXION / ETUDIANT</h2>
                     <div class="content">
                         
                         <div>
