@@ -119,6 +119,11 @@ table th {
     font-weight: bold;
     color: #fff;
 }
+.chapitres{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
 
 .details {
     padding: 8px 15px;

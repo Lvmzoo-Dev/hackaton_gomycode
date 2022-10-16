@@ -30,7 +30,11 @@
         </div>
         <div class="droite">
             <h1>Learn Web Coding <br>by Building</h1>
-            <p>Nous formons la prochaine génération tech aux technologies<br> les plus récentes et aux métiers du futur pour les préparer au<br>monde professionnel et renforcer leur employabilité.</p>
+            <p class="paragraph">
+                <span style="--delay: 0s;">Nous formons la prochaine génération tech aux technologies</span><br>
+                <span style="--delay: .15s">les plus récentes et aux métiers du futur pour les préparer au</span><br>
+                <span style="--delay: .2s">monde professionnel et renforcer leur employabilité.</span>
+            </p>
         </div>
     </div>
 

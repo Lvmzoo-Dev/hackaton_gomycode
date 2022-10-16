@@ -57,28 +57,32 @@
                 </tr>
             </table>
             <h2 style="color: #BC0000;">COURS</h2>
-            <div class="chapitre">
-                <div class="headChapitre">
-                    <p class="title">CHAPITRE 5</p>
-                    <span class="statutChapitre">Terminée</span>
+            <div class="chapitres">
+
+                <div class="chapitre">
+                    <div class="headChapitre">
+                        <p class="title">CHAPITRE 5</p>
+                        <span class="statutChapitre">Terminée</span>
+                    </div>
+                    <p class="detailChapitre">
+                        Lorem ipsum dolor sit amet consectetur <br>
+                        adipisicing elit. Maxime, iusto pariatur
+                    </p>
+                    <a href="#" class="details">Details</a>
                 </div>
-                <p class="detailChapitre">
-                    Lorem ipsum dolor sit amet consectetur <br>
-                    adipisicing elit. Maxime, iusto pariatur
-                </p>
-                <a href="#" class="details">Details</a>
-            </div>
-            <br>
-            <div class="chapitre">
-                <div class="headChapitre">
-                    <p class="title">CHAPITRE 5</p>
-                    <span class="statutChapitre">EN COURS</span>
+                <br>
+                <div class="chapitre">
+                    <div class="headChapitre">
+                        <p class="title">CHAPITRE 5</p>
+                        <span class="statutChapitre" style="background-color: skyblue;">EN COURS</span>
+                    </div>
+                    <p class="detailChapitre">
+                        Lorem ipsum dolor sit amet consectetur <br>
+                        adipisicing elit. Maxime, iusto pariatur
+                    </p>
+                    <a href="#" class="details">Details</a>
                 </div>
-                <p class="detailChapitre">
-                    Lorem ipsum dolor sit amet consectetur <br>
-                    adipisicing elit. Maxime, iusto pariatur
-                </p>
-                <a href="#" class="details">Details</a>
+
             </div>
         </div>
         <div class="div-right"></div>
