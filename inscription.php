@@ -36,29 +36,18 @@ if (isset($_POST['valider'])) {
 <body>
 
     <div class="container">
-        <div class="logo">
-            <span>
-                <img src="images/logo2.png" alt="">
-            </span>
-            <br>
-            <span>
-                <img src="images/man.jpg" width="550" height="700" alt="">
-            </span>
-        </div>
+        
+        <div class="circle"></div>
+        <img src="images/img3.png" alt="">
         <div class="form">
             <form action="" method="POST">
                 <h1 align="center">Inscription</h1>
-                <label for="">NOM</label>
-                &nbsp;&nbsp;&nbsp; <input type="text" name="nom" id="nom" placeholder="Nom...">
-                &nbsp;&nbsp;&nbsp;<label for="">PRENOM</label>
-                &nbsp;&nbsp;&nbsp; <input type="text" name="prenom" id="nom" placeholder="Prénom..."> <br>
-                <label for="">Email</label>
-                <input type="mail" id="nom" class="email" name="email" placeholder="Email..."> <br>
-                <label for="">MOT DE PASSE</label>
-                <input type="password" id="nom" class="mdp" name="password" placeholder="Mot de passe..."> <br>
-                <label for="">CONFIRMER</label>
-                <input type="password" id="nom" class="confMdp" name="confMdp" placeholder="Confirmer..."> <br>
-                <label for="">CHOIX FORMATION</label>
+
+                <input type="text" name="nom" id="nom" placeholder="Nom..." autocomplete="off"><br>
+                <input type="text" name="prenom" id="nom" placeholder="Prénom..." autocomplete="off"> <br>
+                <input type="mail" id="nom" class="email" name="email" placeholder="Email..." autocomplete="off"> <br>
+                <input type="password" id="nom" class="mdp" name="password" placeholder="Mot de passe..." autocomplete="off"> <br>
+                <input type="password" id="nom" class="confMdp" name="confMdp" placeholder="Confirmer..." autocomplete="off"> <br>
                 <select class="formation" name="formation" id="">
                     <option value="">Choisir Formation</option>
                     <?php
