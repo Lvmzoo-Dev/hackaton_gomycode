@@ -19,6 +19,15 @@ body{
 .container img{
     width: 850px;
     margin-top: 200px;
+    animation: anime 2s ease-in-out forwards;
+}
+@keyframes anime{
+    0%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }
 .form{
     margin-top: 90px;
@@ -42,6 +51,7 @@ body{
     top: 40%;
     background-color: #bc00006b;
 }
+
 
 input {
     width: 100%;
