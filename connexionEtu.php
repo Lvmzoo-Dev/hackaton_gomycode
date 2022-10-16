@@ -48,6 +48,7 @@ if (isset($_POST['valider'])) {
     <div class="circle circle2"></div>
     <div class="circle circle3"></div>
 
+    <a href="index.php"><img src="images/logo2.png" alt=""></a>
     <div class="container">
         <img src="images/img2.png" alt="">
         <form action="" method="POST">
